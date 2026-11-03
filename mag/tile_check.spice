@@ -1,0 +1,24 @@
+* NGSPICE file created from tt_um_dsaidyb_inv.ext - technology: gf180mcuD
+
+.subckt pfet_03v3_M55Y8C a_28_n226# w_n278_n436# a_n116_n179# a_n36_n318#
+X0 a_28_n226# a_n36_n318# a_n116_n179# w_n278_n436# pfet_03v3 ad=1.06945p pd=5.88u as=1.06945p ps=5.88u w=2.5u l=0.28u
+.ends
+
+.subckt nfet_03v3_ZPKRMM a_n36_96# a_28_n124# a_n116_n107# a_n254_n262#
+X0 a_28_n124# a_n36_96# a_n116_n107# a_n254_n262# nfet_03v3 ad=0.42895p pd=2.88u as=0.42895p ps=2.88u w=1u l=0.28u
+.ends
+
+.subckt inverter in out vdd vss
+XM2 out vdd vdd in pfet_03v3_M55Y8C
+Xnfet_03v3_ZPKRMM_0 in out vss vss nfet_03v3_ZPKRMM
+.ends
+
+.subckt tt_um_dsaidyb_inv clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6]
++ ua[7] ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7] uio_in[0]
++ uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_oe[0]
++ uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0]
++ uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uo_out[0]
++ uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VDPWR VGND
+Xinverter_0 ua[1] ua[0] VDPWR VGND inverter
+.ends
+

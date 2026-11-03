@@ -1,0 +1,39 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1793669248
+<< metal1 >>
+rect 90 -350 190 -330
+rect 90 -400 310 -350
+rect 370 -400 480 -350
+rect 90 -430 190 -400
+rect 90 -600 190 -580
+rect 320 -600 360 -520
+rect 90 -660 360 -600
+rect 90 -680 190 -660
+rect 320 -750 360 -660
+rect 430 -580 480 -400
+rect 430 -680 530 -580
+rect 90 -790 190 -770
+rect 430 -790 480 -680
+rect 90 -840 310 -790
+rect 370 -840 480 -790
+rect 90 -870 190 -840
+use pfet_03v3_M55Y8C  M2
+timestamp 1793669248
+transform 1 0 339 0 1 -382
+box -139 -218 139 218
+use nfet_03v3_ZPKRMM  nfet_03v3_ZPKRMM_0
+timestamp 1793669248
+transform 1 0 339 0 1 -807
+box -139 -143 139 143
+<< labels >>
+flabel metal1 90 -680 190 -580 0 FreeSans 640 0 0 0 in
+port 0 nsew
+flabel metal1 90 -870 190 -770 0 FreeSans 640 0 0 0 vss
+port 2 nsew
+flabel metal1 90 -430 190 -330 0 FreeSans 640 0 0 0 vdd
+port 1 nsew
+flabel metal1 430 -680 530 -580 0 FreeSans 640 0 0 0 out
+port 3 nsew
+<< end >>

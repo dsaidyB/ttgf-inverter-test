@@ -34,6 +34,7 @@ MACRO tt_um_dsaidyb_inv
   PIN ua[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 1.498400 ;
     PORT
       LAYER Metal4 ;
         RECT 325.820 0.000 328.820 1.000 ;
@@ -42,6 +43,7 @@ MACRO tt_um_dsaidyb_inv
   PIN ua[1]
     DIRECTION INOUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.980000 ;
     PORT
       LAYER Metal4 ;
         RECT 282.140 0.000 285.140 1.000 ;
@@ -422,6 +424,10 @@ MACRO tt_um_dsaidyb_inv
       LAYER Metal4 ;
         RECT 1.000 5.000 3.000 320.360 ;
     END
+    PORT
+      LAYER Metal4 ;
+        RECT 312.000 5.000 314.000 320.360 ;
+    END
   END VDPWR
   PIN VGND
     DIRECTION INOUT ;
@@ -430,7 +436,27 @@ MACRO tt_um_dsaidyb_inv
       LAYER Metal4 ;
         RECT 4.000 5.000 6.000 320.360 ;
     END
+    PORT
+      LAYER Metal4 ;
+        RECT 317.000 5.000 319.000 320.360 ;
+    END
   END VGND
+  OBS
+      LAYER Nwell ;
+        RECT 301.100 30.000 303.880 37.860 ;
+      LAYER Metal1 ;
+        RECT 299.900 30.645 304.500 37.215 ;
+      LAYER Metal2 ;
+        RECT 299.900 30.700 318.600 36.300 ;
+      LAYER Metal3 ;
+        RECT 299.900 28.700 327.920 38.300 ;
+      LAYER Metal4 ;
+        RECT 283.140 4.700 311.700 33.800 ;
+        RECT 314.300 4.700 316.700 33.800 ;
+        RECT 319.300 4.700 327.920 33.800 ;
+        RECT 283.140 1.300 327.920 4.700 ;
+        RECT 285.440 1.000 325.520 1.300 ;
+  END
 END tt_um_dsaidyb_inv
 END LIBRARY
 
