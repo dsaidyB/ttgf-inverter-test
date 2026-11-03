@@ -1,0 +1,29 @@
+
+Magic 8.3 revision 573 - Compiled on Wed Nov 12 10:58:31 AM EST 2025.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology gf180mcuD ...
+10 Magic internal units = 1 Lambda
+Input style import: scaleFactor=10, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
+Scaled tech values by 10 / 1 to match internal grid scaling
+Loading gf180mcuD Device Generator Menu ...
+Using technology "gf180mcuD", version 1.0.556-0-gdd64ab4
+File <inverter.mag> is already locked by pid 2308839.  Opening read-only.
+Cell inverter read from current working directory
+Scaled magic input cell inverter geometry by factor of 2
+File <nfet_03v3_ZPKZMM.mag> is already locked by pid 2308839.  Opening read-only.
+Cell nfet_03v3_ZPKZMM read from current working directory
+File <pfet_03v3_H75YCY.mag> is already locked by pid 2308839.  Opening read-only.
+Cell pfet_03v3_H75YCY read from current working directory
+Extracting nfet_03v3_ZPKZMM into nfet_03v3_ZPKZMM.ext:
+Extracting pfet_03v3_H75YCY into pfet_03v3_H75YCY.ext:
+Extracting inverter into inverter.ext:
+exttospice finished.

@@ -443,9 +443,9 @@ MACRO tt_um_dsaidyb_inv
   END VGND
   OBS
       LAYER Nwell ;
-        RECT 301.100 30.000 303.880 37.860 ;
+        RECT 299.600 30.500 303.520 37.840 ;
       LAYER Metal1 ;
-        RECT 299.900 30.645 304.500 37.215 ;
+        RECT 299.900 30.700 304.500 36.945 ;
       LAYER Metal2 ;
         RECT 299.900 30.700 318.600 36.300 ;
       LAYER Metal3 ;

@@ -1,10 +1,28 @@
 magic
 tech gf180mcuD
 magscale 1 5
-timestamp 1793669248
+timestamp 1793738335
+<< nwell >>
+rect 50 -470 280 -290
+<< psubdiff >>
+rect 100 -800 180 -780
+rect 100 -840 120 -800
+rect 160 -840 180 -800
+rect 100 -860 180 -840
+<< nsubdiff >>
+rect 100 -360 180 -340
+rect 100 -400 120 -360
+rect 160 -400 180 -360
+rect 100 -420 180 -400
+<< psubdiffcont >>
+rect 120 -840 160 -800
+<< nsubdiffcont >>
+rect 120 -400 160 -360
 << metal1 >>
 rect 90 -350 190 -330
-rect 90 -400 310 -350
+rect 90 -360 310 -350
+rect 90 -400 120 -360
+rect 160 -400 310 -360
 rect 370 -400 480 -350
 rect 90 -430 190 -400
 rect 90 -600 190 -580
@@ -16,17 +34,19 @@ rect 430 -580 480 -400
 rect 430 -680 530 -580
 rect 90 -790 190 -770
 rect 430 -790 480 -680
-rect 90 -840 310 -790
+rect 90 -800 310 -790
+rect 90 -840 120 -800
+rect 160 -840 310 -800
 rect 370 -840 480 -790
 rect 90 -870 190 -840
-use pfet_03v3_M55Y8C  M2
-timestamp 1793669248
-transform 1 0 339 0 1 -382
-box -139 -218 139 218
-use nfet_03v3_ZPKRMM  nfet_03v3_ZPKRMM_0
-timestamp 1793669248
-transform 1 0 339 0 1 -807
-box -139 -143 139 143
+use pfet_03v3_H75YCY  M2
+timestamp 1793738335
+transform 1 0 341 0 1 -368
+box -101 -202 101 202
+use nfet_03v3_ZPKZMM  nfet_03v3_ZPKZMM_0
+timestamp 1793738335
+transform 1 0 340 0 1 -804
+box -70 -96 70 96
 << labels >>
 flabel metal1 90 -680 190 -580 0 FreeSans 640 0 0 0 in
 port 0 nsew

@@ -1,0 +1,5 @@
+Warning: PDK_ROOT env. var. not found or empty, trying to find a pdk install
+pdk installation: using /usr/local/share/pdk
+180MCU_MODELS: /usr/local/share/pdk/gf180mcuD/libs.tech/ngspice
+setup_tcp_bespice: success : listening to TCP port: 2026
+

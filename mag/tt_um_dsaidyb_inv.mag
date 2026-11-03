@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 5
-timestamp 1793669248
+timestamp 1793738335
 << metal1 >>
 rect 29990 3620 30140 3630
 rect 29990 3520 30000 3620
@@ -162,9 +162,9 @@ rect 23846 0 24146 100
 rect 28214 0 28514 100
 rect 32582 0 32882 100
 use inverter  inverter_0
-timestamp 1793669248
+timestamp 1793738335
 transform 1 0 29910 0 1 3950
-box 90 -950 530 -164
+box 50 -900 530 -166
 << labels >>
 flabel metal4 s 33109 32436 33139 32536 0 FreeSans 184 90 0 0 clk
 port 0 nsew signal input
